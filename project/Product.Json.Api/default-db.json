@@ -1,0 +1,70 @@
+{
+    "Items": [
+        {
+            "Id": "BF973590-8E16-441C-89F0-EFB7F12D15F4",
+            "Name": "moots",
+            "Category": "bike",
+            "Price": 15000
+        },
+        {
+            "Id": "89809973-C631-40A6-8DF0-DD7A1092CE5B",
+            "Name": "giant",
+            "Category": "bike",
+            "Price": 5000
+        },
+        {
+            "Id": "5248DF62-5CF4-42A6-A3FE-DA24364FE4FC",
+            "Name": "trek",
+            "Category": "bike",
+            "Price": 10000
+        },
+        {
+            "Id": "302c587a-28d0-4a72-b6cb-a4ecfc02b2f9",
+            "Name": "specialized",
+            "Category": "bike",
+            "Price": 19000
+        },
+        {
+            "Id": "8a6491a5-6ea4-470c-bbba-1c80135c49f3",
+            "Name": "Bridgestone",
+            "Category": "bike",
+            "Price": 1100
+        },
+        {
+            "Id": "99c16624-3fb9-47d9-9803-1503e51f65a8",
+            "Name": "Yeti",
+            "Category": "bike",
+            "Price": 9000
+        },
+        {
+            "Id": "3F8D8AD0-42C9-4D34-BC22-D02A4EA4A240",
+            "Name": "Mereda",
+            "Category": "bike",
+            "Price": 8000
+        },
+        {
+            "Id": "8A8CFD84-74AC-4891-9514-3CD5498FD615",
+            "Name": "GT",
+            "Category": "bike",
+            "Price": 12000
+        },
+        {
+            "Id": "38501501-41C6-405E-A72D-F15A76D700BA",
+            "Name": "Pivot",
+            "Category": "bike",
+            "Price": 9000
+        },
+        {
+            "Id": "19629191-097D-4640-BF21-1B5E84770C4C",
+            "Name": "Jones",
+            "Category": "bike",
+            "Price": 9000
+        },
+        {
+            "Id": "AA43B1B7-38F2-405F-B65F-CCE70FC9CF24",
+            "Name": "Pinarello",
+            "Category": "bike",
+            "Price": 8000
+        }
+    ]
+}

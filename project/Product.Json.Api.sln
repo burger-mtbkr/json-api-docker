@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32421.90
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{4A44F3D5-7042-4035-899E-E2AEDB3C48E7}"
+	ProjectSection(SolutionItems) = preProject
+		..\docker-compose.yml = ..\docker-compose.yml
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Product.Json.Api", "Product.Json.Api\Product.Json.Api.csproj", "{ABB94572-4C61-4242-A363-715B61627A1B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ABB94572-4C61-4242-A363-715B61627A1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABB94572-4C61-4242-A363-715B61627A1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABB94572-4C61-4242-A363-715B61627A1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABB94572-4C61-4242-A363-715B61627A1B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {122127AF-25CA-4231-AF29-C7EA44B93932}
+	EndGlobalSection
+EndGlobal
