@@ -23,13 +23,15 @@ If you want to push this to your own Docker Hub repository: you can follow these
 
 1. You may need log out first `docker logout` then log back in using `docker login`.
 2. You need to include the namespace for Docker Hub to associate it with your account. The namespace is the same as your Docker Hub account name.
-3. If your image does not include your account name, you can rename it by tagging it. You can do this using `docker tag SOURCE_IMAGE[:TAG] TARGET_IMAGE[:TAG]`. e.g. `docker tag dotnet-mongo-docker YOUR_DOCKERHUB_NAME/dotnet-mongo-docker:tag`.
-4. You can then push your image by running this command: `docker push YOUR_DOCKERHUB_NAME/dotnet-mongo-docker:tag`.
+3. If your image does not include your account name, you can rename it by tagging it. You can do this using `docker tag SOURCE_IMAGE[:TAG] TARGET_IMAGE[:TAG]`. e.g. `docker tag dotnet-mongo-docker YOUR_DOCKERHUB_NAME/product-json-api:tag`.
+4. You can then push your image by running this command: `docker push YOUR_DOCKERHUB_NAME/product-json-api:tag`.
 
 ---
 
 **Useful command:**
 
+- `docker build -t "YOUR_DOCKERHUB_NAME/product-json-api:tag" .` - Build the image
+- `docker push YOUR_DOCKERHUB_NAME/product-json-api:tag` - Publish the image to docker hub
 - `docker exec -it <containername> bash` - allows you to run commands in the containers. See [here](https://docs.docker.com/engine/reference/commandline/exec/) for more info.
 - `docker tag --help` - Help info to tag an image
 

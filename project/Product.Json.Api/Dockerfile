@@ -7,10 +7,10 @@ EXPOSE 80
 
 FROM mcr.microsoft.com/dotnet/sdk:6.0 AS build
 WORKDIR /src
-COPY ["Product.Json.Api/Product.Json.Api.csproj", "Product.Json.Api/"]
-RUN dotnet restore "Product.Json.Api/Product.Json.Api.csproj"
+COPY ["Product.Json.Api.csproj", "."]
+RUN dotnet restore "./Product.Json.Api.csproj"
 COPY . .
-WORKDIR "/src/Product.Json.Api"
+WORKDIR "/src/."
 RUN dotnet build "Product.Json.Api.csproj" -c Release -o /app/build
 
 FROM build AS publish
