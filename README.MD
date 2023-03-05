@@ -5,11 +5,18 @@
 - [Docker Desktop](https://www.docker.com/products/docker-desktop) (Optional)
 - .Net 6
 
-**How to setup:**
+**How to setup from thsi repo:**
 
 - Clone the repo locally.
 - Build and run using Docker profile
 - You can access the api on http://localhost:55014/swagger/index.html
+
+**Or you can run the app directly from docker:**
+
+- Pull the latest image using: docker pull loanburger/product-json-api:latest
+- Run the app: `docker run -p <port>:80 loanburger/product-json-api:latest`
+- You can access the api on http://localhost:<port>/swagger/index.html
+
 
 **How to test:**
 
